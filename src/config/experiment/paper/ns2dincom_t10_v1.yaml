@@ -1,0 +1,9 @@
+# @package _global_
+# Recovered from ns2dincom_t10_v1/imno_ns_2dincom_imno_a0p1_s1-3700809.out (seed 1).
+defaults:
+- /experiment/ns_2dincom
+- _self_
+args:
+  t_train: 11
+  alpha: 0.1
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

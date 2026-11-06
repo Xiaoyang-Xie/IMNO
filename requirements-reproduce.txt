@@ -1,0 +1,8 @@
+# Recorded training environment.
+# Python 3.10.20; Torch 2.1.2+cu121 (CUDA 12.1). Keep the same GPU/backend
+# settings when comparing a seeded run; a seed alone does not fix hardware.
+torch==2.1.2
+numpy==1.26.4
+h5py==3.16.0
+hydra-core==1.3.2
+omegaconf==2.3.0

@@ -1,0 +1,11 @@
+# @package _global_
+# Recovered from ks4pi_t40_v1/imno_ks_imno_a0p1_s1-3691330.out (seed 1).
+defaults:
+- /experiment/ks
+- _self_
+args:
+  filename: ks_4pi_n10000.hdf5
+  normalize: false
+  phase_mode: xy
+  ode_substeps: 1
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

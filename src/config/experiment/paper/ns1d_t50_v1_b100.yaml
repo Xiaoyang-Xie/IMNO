@@ -1,0 +1,10 @@
+# @package _global_
+# Recovered from ns1d_t50_v1_b100/imno_ns1d_eta01_imno_a0p1_s1-3718509.out (seed 1).
+defaults:
+- /experiment/ns1d_eta01
+- _self_
+args:
+  alpha: 0.1
+  phase_mode: xy
+  ode_substeps: 1
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

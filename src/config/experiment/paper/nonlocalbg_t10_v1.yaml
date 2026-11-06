@@ -1,0 +1,11 @@
+# @package _global_
+# Recovered from nonlocalbg_t10_v1/imno_nonlocalbg_imno_a0p1_s1-3705653.out (seed 1).
+defaults:
+- /experiment/nonlocalbg
+- _self_
+args:
+  filename: nonlocal_burgers_nu0.01_n10000.hdf5
+  alpha: 0.1
+  normalize: false
+  phase_mode: xy
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

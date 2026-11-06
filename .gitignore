@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environments
+.env*
+.venv/
+venv/
+env/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Hydra / project artifacts
+outputs/
+output/
+logs/
+debug/
+*.pt
+*.hdf5
+
+# Jupyter
+.ipynb_checkpoints
+
+# Local data, run artifacts, and packaging
+data/
+experiments/
+checkpoints/
+*.h5
+*.npz
+*.orig
+*.egg-info/
+build/
+dist/

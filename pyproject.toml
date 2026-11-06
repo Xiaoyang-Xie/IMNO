@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+requires-python = ">=3.9,<3.11"
+readme = "README.md"
+name = "imno"
+version = "0.1.0"
+description = "IMNO: Inertial Manifold Neural Operator for Dissipative Partial Differential Equations"
+authors = [
+    {name = "Xiaoyang Xie"},
+]
+dependencies = [
+    "numpy<2",
+    "h5py",
+    "hydra-core",
+    "torch>=1.13,<2.2",
+]
+
+[project.scripts]
+imno-train = "src.train:main"
+imno-evaluate = "src.evaluate:main"
+imno-summarize = "src.summarize_results:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src", "src.*"]
+
+[tool.setuptools.package-data]
+src = ["config/*.yaml", "config/experiment/*.yaml", "config/experiment/paper/*.yaml"]
+
+[project.urls]
+Repository = "https://github.com/Xiaoyang-Xie/IMNO"
+Upstream = "https://github.com/pdebench/PDEBench"

@@ -1,0 +1,9 @@
+# @package _global_
+# Recovered from ns2d_t20_v1/imno_ns2d_imno_a0p1_s1-3697073.out (seed 1).
+defaults:
+- /experiment/ns2d
+- _self_
+args:
+  alpha: 0.1
+  phase_mode: xy
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

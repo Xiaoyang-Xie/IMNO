@@ -1,0 +1,10 @@
+# @package _global_
+# Recovered from ks8pi_t40_v1/imno_ks_imno_a0p1_s1-3693376.out (seed 1).
+defaults:
+- /experiment/ks
+- _self_
+args:
+  normalize: false
+  phase_mode: xy
+  ode_substeps: 1
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

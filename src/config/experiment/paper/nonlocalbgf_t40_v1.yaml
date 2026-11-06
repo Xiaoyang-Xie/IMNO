@@ -1,0 +1,11 @@
+# @package _global_
+# Recovered from nonlocalbgf_t40_v1/imno_nonlocalbg_imno_a0p1_s1-3709065.out (seed 1).
+defaults:
+- /experiment/nonlocalbg
+- _self_
+args:
+  t_train: 41
+  alpha: 0.1
+  normalize: false
+  phase_mode: xy
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}

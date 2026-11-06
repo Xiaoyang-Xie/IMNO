@@ -1,0 +1,10 @@
+# @package _global_
+# Recovered from bg1d0p1_t10_v1/imno_burgers_imno_a0p1_s1-3684615.out (seed 1).
+defaults:
+- /experiment/burgers
+- _self_
+args:
+  t_train: 11
+  normalize: false
+  phase_mode: xy
+  data_path: ${oc.env:IMNO_DATA_ROOT,data}
